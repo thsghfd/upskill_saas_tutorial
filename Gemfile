@@ -31,7 +31,13 @@ gem 'jbuilder', '2.5.0'
 #Use Twitter Bootstrap Library for front-end UI and Layout
 gem 'bootstrap-sass', '3.3.7'
 
+# font awsome for icons and formatting
 gem 'font-awesome-sass', '4.6.2'
+
+#use Hirb for better database table display in console
+gem 'hirb', '0.7.3'
+
+gem 'friendly_id', '~> 5.2.4' # Note: You MUST use 5.0.0 or greater for Rails 4.0+
 
 group :development, :test do
   # Use sqlite3 as the database for Active Record
