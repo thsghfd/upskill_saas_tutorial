@@ -8,8 +8,8 @@ def create
   if @contact.save
     name = params[:contact][:name]
     email = params[:contact][:email]
-    body = params[:contact][:body]
-    ContactMailer.contact_email(name, email, body).deliver
+    body = params[:contact][:comments]
+    ContactMailer.contact_email(name, email, comments).deliver
       flash[:success] = "Message sent."
      redirect_to contact_us_path
   else
