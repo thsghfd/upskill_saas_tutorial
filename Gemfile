@@ -28,7 +28,7 @@ gem 'jbuilder', '2.5.0'
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
-#Use Twitter Bootstrap Library for front-end UI and Layout
+# use Twitter bootstrap library for front end UI
 gem 'bootstrap-sass', '3.3.7'
 
 # font awsome for icons and formatting
@@ -36,8 +36,6 @@ gem 'font-awesome-sass', '4.6.2'
 
 #use Hirb for better database table display in console
 gem 'hirb', '0.7.3'
-
-gem 'friendly_id', '~> 5.2.4' # Note: You MUST use 5.0.0 or greater for Rails 4.0+
 
 group :development, :test do
   # Use sqlite3 as the database for Active Record
@@ -55,8 +53,8 @@ group :development do
   gem 'spring-watcher-listen', '2.0.0'
 end
 
-group :production do
-# Use the PostgreSQL gem for Heroku production servers
+group:production do
+  # Use the PostgreSQL gem for Heroku production servers
   gem 'pg', '0.18.4'
 end
 

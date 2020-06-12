@@ -61,8 +61,6 @@ GEM
     ffi (1.13.1)
     font-awesome-sass (4.6.2)
       sass (>= 3.2)
-    friendly_id (5.2.5)
-      activerecord (>= 4.0.0)
     globalid (0.4.2)
       activesupport (>= 4.2.0)
     hirb (0.7.3)
@@ -173,7 +171,6 @@ DEPENDENCIES
   byebug
   coffee-rails (= 4.2.1)
   font-awesome-sass (= 4.6.2)
-  friendly_id (~> 5.2.4)
   hirb (= 0.7.3)
   jbuilder (= 2.5.0)
   jquery-rails (= 4.1.1)
