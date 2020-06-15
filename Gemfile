@@ -1,10 +1,12 @@
 source 'https://rubygems.org'
 
-
+gem 'ruby'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.0.0', '>= 5.0.0.1'
 # Use SCSS for stylesheets
 gem 'sass-rails', '5.0.6'
+# Use Puma as the app server
+gem 'puma', '3.4.0'
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '3.0.0'
 # Use CoffeeScript for .coffee assets and views
@@ -36,7 +38,7 @@ gem 'font-awesome-sass', '4.6.2'
 gem 'hirb', '0.7.3'
 
 # use Devise for user authentication
-gem 'devise', '4.2.0'
+gem 'devise'
 
 group :development, :test do
   # Use sqlite3 as the database for Active Record
@@ -61,4 +63,3 @@ end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
-ruby '2.5.0'
